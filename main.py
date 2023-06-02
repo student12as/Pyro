@@ -122,7 +122,7 @@ keyboard = InlineKeyboardMarkup(
 @bot.on_message(filters.command(["pyro"]))
 async def account_login(bot: Client, m: Message):
 
- editable = await m.reply_text("**Hi Press**\n**Text** = /pro_txt\n**Top** = /pro_top\n**Vision** = /pro_vision\n**Jw** = /pro_jw\n**Olive** = /pro_olive\n**Addapdf** = /adda_pdf")
+ editable = await m.reply_text("**Hi Press**\n**Text** = /txt\n**Top** = /pro_top\n**Vision** = /pro_vision\n**Jw** = /pro_jw\n**Olive** = /pro_olive\n**Addapdf** = /adda_pdf")
 
 
 @bot.on_message(filters.command(["cancel"]))
@@ -140,7 +140,7 @@ async def restart_handler(_, m):
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 
-@bot.on_message(filters.command(["pro_txt"]))
+@bot.on_message(filters.command(["txt"]))
 async def account_login(bot: Client, m: Message):
     user = m.from_user.id if m.from_user is not None else None
     if user is not None and user not in sudo_users:
