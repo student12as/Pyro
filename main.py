@@ -798,7 +798,7 @@ async def account_login(bot: Client, m: Message):
                     f"**downloading failed ❌**\n{str(e)}\n**Name** - {name}\n**Link** - `{url}`\n"
                 )
                 continue
-    except Exception as e: and 
+    except Exception as e:
         await m.reply_text(str(e))
     await m.reply_text("Done")
 
