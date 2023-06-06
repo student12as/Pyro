@@ -879,7 +879,7 @@ async def account_login(bot: Client, m: Message):
             if "jwplayer" in url:
                 headers = {
                     'Host': 'api.classplusapp.com',
-                    'x-access-token':'eyJhbGciOiJIUzM4N I'dCIsInR5cCI6IkpXVCJ9.eyJpZCI6MzU3MDczODgsIm9yZ0lkIjo5MTgzLCJ0eXBlIjoxLCJtb2JpbGUiOiI5MTczNTQzNDA2OTAiLCJuYW1lIjoiZHVyZ2VzaCBzYWh1IiwiZW1haWwiOiJkdXJnZXNoZ3VwdGE2ODlAZ21haWwuY29tIiwiaXNJbnRlcm5hdGlvbmFsIjowLCJkZWZhdWx0TGFuZ3VhZ2UiOiJFTiIsImNvdW50cnlDb2RlIjoiSU4iLCJjb3VudHJ5SVNPIjoiOTEiLCJ0aW1lem9uZSI6IkdNVCs1OjMwIiwiaXNEaXkiOmZhbHNlLCJmaW5nZXJwcmludElkIjoiYjQwNDAxZTQ5MjFmM2IwZmFjMzM2OTQ3MDVmMDUxZTIiLCJpYXQiOjE2ODU4NzQ3MDMsImV4cCI6MTY4NjQ3OTUwM30.wD_8mT7BHdnBoAqEBFkqQtGTM-V2sMPqtkXCO56g5WTVxiqEHW_DutekDNJY2ejU',
+                    
                     
             
                     
