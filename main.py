@@ -359,7 +359,7 @@ async def account_login(bot: Client, m: Message):
                 elif raw_text2 == '360':
                     ytf = 'http-360p'
                 elif raw_text2 == '480':
-                    ytf = 'http-540p'
+                    ytf = 'http-480p'
                 elif raw_text2 == '720':
                     ytf = 'http-720p'
                 else:
